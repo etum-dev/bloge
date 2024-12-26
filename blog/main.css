@@ -1,0 +1,97 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Serif', serif;
+  background-color: #121212; 
+  color: #D78700;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+pre {
+text-align: center;
+}
+/* Header */
+#header {
+  background-color: #808085; 
+  color: #fff;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 1.2em;
+  border-bottom: 2px solid;  /* Subtle shadow effect */
+}
+
+#header a {
+  color: #D78700;
+  margin: 0 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+#header a:hover {
+  color: #5F87AF; /* Gentle hover color */
+}
+
+/* Blog Content */
+#blog-content {
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  background: #87AF5F;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#blog-content a {
+  display: block;
+  margin-bottom: 15px;
+  color: #5e5d5d;
+  font-size: 1.1em;
+  padding: 10px;
+  border: 1px solid #d4d4d4;
+  transition: background 0.3s, color 0.3s;
+}
+
+#blog-content a:hover {
+  background-color: #d8e8d1; /* Soft green hover */
+  color: #333;
+}
+
+/* Footer */
+#footer {
+  background-color: #a3c9a8;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  border-top: 2px solid #8fa88b;
+}
+
+#footer a {
+  color: #87AF5F;
+  margin: 0 5px;
+  font-size: 0.9em;
+  transition: color 0.3s;
+}
+
+#footer a:hover {
+  color: #fff;
+}
+
+/* "Written with Love" Text */
+#footer::after {
+  content: "Written with love in bash";
+  font-size: 0.8em;
+  color: #8fa88b;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-style: italic;
+}
+

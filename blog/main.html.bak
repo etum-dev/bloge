@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang=en>
+        <head>
+                <title>Etums homepage</title>
+		<meta name="keywords" content="hacking, ethical hacking, cybersecurity, tea, tea reviews, hacking tips">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Hacking & Tea",
+  "url": "https://yourdomain.com",
+  "author": {
+    "@type": "Person",
+    "name": "Your Name"
+  },
+  "description": "Hacking for fun, profit, community and charity. ...And rants about tea.",
+  "keywords": "hacking, tea, cybersecurity, ethical hacking, tea lovers"
+}
+</script>
+	<meta property="og:title" content="Hacking & Tea">
+<meta property="og:description" content="Hacking for fun, profit, community and charity. ...And rants about tea.">
+<meta property="og:image" content="https://yourdomain.com/og-image.jpg">
+<meta property="og:url" content="https://yourdomain.com">
+<meta property="og:type" content="website">
+<link rel="icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="canonical" href="https://etum.wtf/blog">
+        </head>
+        <div id="main">
+                <pre>
+
+
+                 ********       **********       **     **       ****     ****
+                 /**/////       /////**///       /**    /**      /**/**   **/**
+                 /**                /**          /**    /**      /**//** ** /**
+                 /*******           /**          /**    /**      /** //***  /**
+                 /**////            /**          /**    /**      /**  //*   /**
+                 /**                /**          /**    /**      /**   /    /**
+                 /********          /**          //*******       /**        /**
+                 ////////           //            ///////        //         // 
+                 
+
+
+                </pre>
+                <p>Hello, here you can find a collection of links and my blog.<p>
+                </div>
+                        <div id="blog-content">
+                                %%CONTENT%%
+                        </div>
+                        <div id="links">
+			While I want to strive for only self-hosting/Decentralized services, this is where i push
+			other content for now.
+				<a href="https://bsky.app/profile/etumdev.bsky.social">BSky</a>
+				<a href="#">"Fediverse"></a>
+				<a href="https://www.twitch.tv/etumkali">Twitch</a>
+				<a href="https://x.com/etum_dev">TwXtter"</a>
+                        </div>
+			This site is written with <3 in pure html and bash.
+</html>
+
